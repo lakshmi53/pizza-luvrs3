@@ -20,3 +20,4 @@ All Images copyright Ryan Lewis
 
 All Code under MIT license
 
+I am using this code for practice purpose and all rights are reserved to ryanmurakami
