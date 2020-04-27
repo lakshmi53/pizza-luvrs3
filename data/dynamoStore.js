@@ -1,9 +1,7 @@
 const AWS = require('aws-sdk')
 
 AWS.config.update({ 
-	region: 'us-east-1' ,
-	accessKeyId: "AKIATISQNIU4J23ZQ6MY",
-    secretAccessKey: "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"
+	region: 'us-east-1'
 	 //credentials: new aws.SharedIniFileCredentials()
 	 })
 
