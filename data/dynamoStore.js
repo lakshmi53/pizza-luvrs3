@@ -1,6 +1,11 @@
 const AWS = require('aws-sdk')
 
-AWS.config.update({ region: 'us-east-1' })
+AWS.config.update({ 
+	region: 'us-east-1' ,
+	accessKeyId: "AKIATISQNIU4J23ZQ6MY",
+    secretAccessKey: "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"
+	 //credentials: new aws.SharedIniFileCredentials()
+	 })
 
 const dynamodb = new AWS.DynamoDB.DocumentClient()
 
@@ -62,3 +67,4 @@ module.exports = {
 	getItem
 }
 
+	
